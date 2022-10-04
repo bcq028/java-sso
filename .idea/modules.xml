@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backend/app1/app1.iml" filepath="$PROJECT_DIR$/backend/app1/app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/app2/app2.iml" filepath="$PROJECT_DIR$/backend/app2/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-sso.iml" filepath="$PROJECT_DIR$/.idea/java-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/login/login.iml" filepath="$PROJECT_DIR$/backend/login/login.iml" />
+    </modules>
+  </component>
+</project>
