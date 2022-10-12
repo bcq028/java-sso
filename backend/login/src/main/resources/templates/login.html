@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sso-login</title>
+</head>
+<body>
+	<h3>这里是登录页面</h3>
+	<p style="color:red;" th:text="${session.msg}"></p>
+	<form action="/login" method="post">
+		用户名：<input type="text" name="uname"/><br/>
+		密码：<input type="password" name="upwd"/><br/>
+		<button type="submit">登录</button>
+	</form>
+</body>
+</html>
