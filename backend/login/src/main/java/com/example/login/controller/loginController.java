@@ -39,7 +39,7 @@ public class loginController {
         String targetUrl = (String) session.getAttribute("target");
         //如果是直接从登录系统登录的，校验成功后默认跳转到app1的首页
         if(ObjectUtils.isEmpty(targetUrl)) {
-            targetUrl = ""; //app1的路径，需要配置thymeleaf
+            targetUrl = "http://app1.sso.com:8081/index"; //app1的路径，需要配置thymeleaf
         }
         return "redirect:" + targetUrl;
     }

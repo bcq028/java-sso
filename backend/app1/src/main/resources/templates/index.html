@@ -9,7 +9,7 @@
 	<p th:unless="${session.loginUser==null}">
 		<span style="color:deepskyblue;" th:text="${session.loginUser.uname}"></span> 已登录
 	</p>
-	<a th:if="${session.loginUser==null}" href="http://login.sso.com:8080/page/login?target=http://sys1.sso.com:8081/index">登录</a>
+	<a th:if="${session.loginUser==null}" href="http://login.sso.com:8080/page/login?target=http://app1.sso.com:8081/index">登录</a>
 	<a th:unless="${session.loginUser==null}" href="/loginOut">退出</a>
 </body>
 </html>
