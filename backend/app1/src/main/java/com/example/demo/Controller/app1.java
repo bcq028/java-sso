@@ -34,7 +34,6 @@ public class app1 {
                 session.setAttribute("loginUser", null);
             }
         }
-
         return "index";
     }
 
